@@ -1,85 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-* { 
-	margin: 0; 
-	padding: 0; 
-	box-sizing: border-box; 
-} 
+.utility_flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-.utility_flex { 
-	display: flex; 
-	justify-content: center; 
-	align-items: center; 
+.box {
+    width: 90%; /* Adjusted width for responsiveness */
+    max-width: 400px; /* Added maximum width */
+    height: auto; /* Changed height to auto */
+    background-color: rgb(207, 224, 159);
+    border-radius: 15px;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px; /* Added margin for spacing */
+}
 
-} 
+.outer-box {
+    min-height: 100vh; /* Changed height to min-height for responsiveness */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-.box { 
-	height: 360px; 
-	width: 400px; 
-	background-color: rgb(207, 224, 159); 
-	border-radius: 15px; 
-	padding: 20px; 
-	font-family: 'Poppins', sans-serif; 
+.inner-box {
+    display: flex; /* Added display property */
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    text-align: center; /* Center align text */
+}
 
-} 
+.btn-container {
+    display: flex;
+    gap: 15px;
+}
 
-.outer-box { 
-	height: 100vh; 
-} 
+.gfglogo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
 
-.inner-box { 
-	flex-direction: column; 
-	gap: 30px; 
-} 
+.btn-style {
+    width: 100px;
+    height: 30px;
+    background: green;
+    border-radius: 15px;
+    color: whitesmoke;
+    text-align: center;
+    padding: 3px;
+    border: none;
+}
 
-.btn-container { 
-	gap: 15px; 
-} 
+.message {
+    background-color: rgb(47, 71, 11);
+    max-height: 85px; /* Changed height to max-height */
+    overflow: auto; /* Added overflow for scrolling if necessary */
+    text-align: center;
+    color: antiquewhite;
+    padding: 25px;
+    border-radius: 5px;
+    font-size: 20px;
+}
 
+input {
+    width: 90%; /* Adjusted width for responsiveness */
+    max-width: 300px; /* Added maximum width */
+    height: 50px;
+    border: 2px solid rgb(14, 112, 14);
+    border-radius: 15px;
+    text-align: center;
+    font-size: 15px;
+}
 
+.para-text {
+    padding: 20px;
+    text-align: center; /* Center align text */
+}
 
-.gfglogo { 
-	flex-direction: column; 
-	gap: 10px; 
-} 
-
-.btn-style { 
-	width: 100px; 
-	height: 30px; 
-	background: green; 
-	border-radius: 15px; 
-	color: whitesmoke; 
-	text-align: center; 
-	padding: 3px; 
-	border: none; 
-} 
-
-.message { 
-	background-color: rgb(47, 71, 11); 
-	height: 85px; 
-	text-align: center; 
-	color: antiquewhite; 
-	padding: 25px; 
-	border-radius: 5px; 
-	font-size: 20px; 
-	overflow: auto; 
-	word-wrap: break-word; 
-} 
-input { 
-	height: 50px; 
-	width: 300px; 
-	border: 2px solid rgb(14, 112, 14); 
-	border-radius: 15px; 
-	text-align: center; 
-	font-size: 15px; 
-} 
-
-.para-text { 
-	padding: 20px; 
-} 
-
-.sub-heading { 
-	color: rgb(12, 78, 12); 
-	font-size: 25px; 
+.sub-heading {
+    color: rgb(12, 78, 12);
+    font-size: 25px;
+    text-align: center; /* Center align text */
 }
