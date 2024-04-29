@@ -63,13 +63,9 @@
 	padding: 25px; 
 	border-radius: 5px; 
 	font-size: 20px; 
-	/* white-space: pre-line; */
-	overflow: auto; /* or scroll, hidden, visible */
-	word-wrap: break-word; /* or overflow-wrap: break-word; */
-	
-
+	overflow: auto; 
+	word-wrap: break-word; 
 } 
-
 input { 
 	height: 50px; 
 	width: 300px; 
