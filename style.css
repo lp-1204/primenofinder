@@ -57,13 +57,13 @@
 
 .message { 
 	background-color: rgb(47, 71, 11); 
-	height: 100px; 
+	height: 85px; 
 	text-align: center; 
 	color: antiquewhite; 
 	padding: 25px; 
 	border-radius: 5px; 
 	font-size: 20px; 
-	white-space: pre-line;
+	/* white-space: pre-line; */
 	overflow: auto; /* or scroll, hidden, visible */
 	word-wrap: break-word; /* or overflow-wrap: break-word; */
 	
